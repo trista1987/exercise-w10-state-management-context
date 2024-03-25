@@ -26,7 +26,7 @@ npm i && code . && npm run dev
     - Define a context using `createContext()`. Remember to export both the context and a custom hook (e.g., `useTheme`) to make it easier to access the theme in your components. Follow the naming conventions when you create folders and files. Have a look at the [boilerplate](https://github.com/Technigo/react-vite-use-context-boiler-plate) if you need guidance.
 
 3.  **Integrating Components**
-    - In your main `App.jsx`, integrate both the task manager and theme toggler. 
+    - In your main `App.jsx`, import the theme toggler. 
     - Ensure that the `ThemeProvider` wraps your entire application so that the theme context is accessible everywhere.
 
 4.  **Testing**
